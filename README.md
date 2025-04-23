@@ -1,6 +1,6 @@
 # Plataforma de Cursos Online para Escolas Públicas
 
-Uma plataforma educacional gratuita, pensada especialmente para "alunos de escolas públicas", que oferece acesso a videoaulas, materiais de estudo, exercícios interativos e um fórum para tirar dúvidas.
+Uma plataforma educacional gratuita, intuitiva e acessivel, pensada especialmente para "alunos de escolas públicas", esta irá oferecer acesso a videoaulas, materiais de estudo, exercícios interativos e um fórum para tirar dúvidas. A platafora possui como diferencial uma temática inspirada em "Harry Potter", com o intuito de aumentar o engajamento dos alunos para com as atividades da instituição.
 
 
 # Objetivo
