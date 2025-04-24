@@ -33,14 +33,15 @@ O projeto tem como missão democratizar o acesso à educação de qualidade por 
 
 ---
 
-## 🛠️ Tecnologias 
+## 🛠️ Tecnologias Frontend
 
 - HTML;
 - CSS;
 - VANILLA JS;
 
-### Tecnologias Futuras
+### Tecnologias Futuras (Backend)
 
-- JAVA (Spring Boot);
-- MYSQL.
+- JAVA (para a criação da lógica do backend);
+- Spring Boot : é uma ferramenta que simplifica o desenvolvimento de aplicações baseadas no Spring Framework, permitindo a criação de aplicações autossuficientes e configuráveis com menos esforço;
+- MYSQL -  é um sistema de gerenciamento de banco de dados, que utiliza a linguagem SQL como interface.
 
