@@ -33,4 +33,14 @@ O projeto tem como missão democratizar o acesso à educação de qualidade por 
 
 ---
 
-## 🛠️ Tecnologias S
+## 🛠️ Tecnologias 
+
+- HTML;
+- CSS;
+- VANILLA JS;
+
+### Tecnologias Futuras
+
+- JAVA (Spring Boot);
+- MYSQL.
+
