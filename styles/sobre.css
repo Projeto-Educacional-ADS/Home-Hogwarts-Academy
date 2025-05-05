@@ -42,7 +42,7 @@ section p{ font-size: 1.1rem; }
     text-align: center;
     flex-direction: column;
     background: linear-gradient(rgba(10, 14, 23, 0.3), rgba(10, 14, 23, 0.3)),
-    url("images/castelo.jpg") no-repeat center center/cover;
+    url("/images/castelo.jpg") no-repeat center center/cover;
     height: 65vh;  
     position: relative;
     border-radius: 0 0 20% 20%;
