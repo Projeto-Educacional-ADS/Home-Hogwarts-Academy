@@ -5,6 +5,17 @@ Uma jornada mágica rumo ao vestibular para jovens bruxos da rede pública.
  #### **Bem-vindo à sua carta de admissão para o conhecimento!**
  Hogwarts Academy é uma plataforma educacional gratuita, acessível e feita especialmente para estudantes de escolas públicas que estão se preparando para o ENEM e vestibulares. Inspirada no universo mágico de Harry Potter, nossa missão é transformar os estudos em uma verdadeira aventura, onde cada disciplina é como uma nova aula em Hogwarts!
 
+ ## Changelog
+
+## Changelog
+
+| **Data**     | **Versão**   | **Tipo de Alteração**              | **Descrição da Mudança**                                                                                                     | **Responsável** |
+|--------------|--------------|------------------------------------|------------------------------------------------------------------------------------------------------------------------------|------------------|
+| 23/04/2025   | 1.0.0        | Lançamento Inicial                | Lançamento da versão inicial do site, com estrutura básica da página inicial.                                                 | Gabriel          |
+| 01/05/2025   | 1.0.1        | Adição de Páginas de Cursos       | Inclusão das páginas dos cursos de Aritmancia, Herbologia e Estudo dos Trovões.                                               | Sabrina          |
+| 03/05/2025   | 1.1.0        | Implementação da Página "Sobre Nós" | Criação e lançamento da página "Sobre Nós", com informações sobre a instituição de ensino.                                     | Gabriel          |
+| 05/05/2025   | 1.1.1        | Correção de Bugs                  | Correção de erros relacionados ao linkamento de fontes e imagens nas páginas inicial, de cursos e sobre nós.                 | Gabriel          |
+
 
 # Objetivo
 
