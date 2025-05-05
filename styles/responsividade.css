@@ -52,7 +52,22 @@
     
     .footer-links {
         grid-template-columns: 1fr;
+        place-items: center;
         gap: 40px;
+        width: 100%;
+        padding-top: 3%;
+    }
+
+    .footer-column{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .footer-column ul{ 
+        width: 40%; 
+        padding-top: 20px;
     }
 }
 

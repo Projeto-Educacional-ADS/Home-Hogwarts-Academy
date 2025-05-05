@@ -1,10 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600;700&family=Metamorphous&display=swap');
+
  /* RESET & FONTS */
  :root {
     --hogwarts-purple: #5E2A84;
     --golden-snitch: #FFD700;
-    --slytherin-green: #2A623D;
-    --gryffindor-red: #740001;
-    --ravenclaw-blue: #0E1A40;
+    --slytherin-green: #3b8855;
+    --gryffindor-red: #e20004;
+    --ravenclaw-blue: #08278d;
     --hufflepuff-yellow: #FFDB00;
     --parchment: #F5EEDC;
     --ink: #3D2B1F;
@@ -17,8 +19,6 @@
     font-family: 'Crimson Text', serif;
     scroll-behavior: smooth;
 }
-
-@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600;700&family=Metamorphous&display=swap');
 
 body {
     background-color: #0A0E17;
@@ -85,7 +85,7 @@ header {
 
 .logo h1 {
     font-family: 'Metamorphous', cursive;
-    font-size: 30px;
+    font-size: 25px;
     background: linear-gradient(90deg, var(--golden-snitch), #C0A470);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -108,7 +108,7 @@ nav ul li a {
     color: var(--parchment);
     text-decoration: none;
     font-weight: 600;
-    font-size: 18px;
+    font-size: 15px;
     transition: all 0.3s;
     padding: 8px 15px;
     border-radius: 4px;
@@ -189,7 +189,7 @@ nav ul li a:hover::after {
 
 .hero h2 {
     font-family: 'Metamorphous', cursive;
-    font-size: 3.5rem;
+    font-size: 3rem;
     font-weight: 700;
     margin-bottom: 25px;
     background: linear-gradient(90deg, var(--golden-snitch), #C0A470);
@@ -359,7 +359,7 @@ nav ul li a:hover::after {
 }
 
 .course-content h3 {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     margin-bottom: 15px;
     color: var(--golden-snitch);
     font-family: 'Metamorphous', cursive;
@@ -455,7 +455,7 @@ nav ul li a:hover::after {
 }
 
 .feature-card h3 {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     margin-bottom: 15px;
     color: var(--golden-snitch);
     font-family: 'Metamorphous', cursive;
@@ -516,6 +516,7 @@ footer::before {
 
 .footer-links {
     display: grid;
+    place-items: center;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 30px;
     margin-bottom: 40px;
@@ -809,9 +810,9 @@ footer::before {
     align-items: center;
 }
 
-.video-placeholder {
+/* .video-placeholder {
     position: relative;
     border-radius: 10px;
     overflow: hidden;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
-    aspect
+    aspect */
