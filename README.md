@@ -13,7 +13,7 @@ Uma jornada mágica rumo ao vestibular para jovens bruxos da rede pública.
 | 01/05/2025   | 1.0.1        | Adição de Páginas de Cursos       | Inclusão das páginas dos cursos de Aritmancia, Herbologia e Estudo dos Trovões.                                               | Sabrina          |
 | 03/05/2025   | 1.1.0        | Implementação da Página "Sobre Nós" | Criação e lançamento da página "Sobre Nós", com informações sobre a instituição de ensino.                                     | Gabriel          |
 | 05/05/2025   | 1.1.1        | Correção de Bugs                  | Correção de erros relacionados ao linkamento de fontes e imagens nas páginas inicial, de cursos e sobre nós.                 | Gabriel          |
-
+| 07/05/2025 | 1.1.2 | Adição da área de contato | Criação e lançamento da seção de contato para alunos e demais interessados entrarem em comunicação com a instituição | Gabriel |
 
 # Objetivo
 

@@ -467,6 +467,127 @@ nav ul li a:hover::after {
     line-height: 1.7;
 }
 
+.container {
+    opacity: 0;
+    visibility: hidden;
+    clip-path: inset(100% 0 0 0);
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    right: 10px;
+    margin: 80px auto;
+    height: 90%;
+    width: 30%;
+    background: rgba(26, 1, 41, 0.3);
+    border: 1px solid white;
+    backdrop-filter: blur(5px);
+    border-radius: 10px 0 0 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    z-index: 100;
+    padding: 0 20px;
+    transition: all .3s ease;
+}
+
+.container.form-active{ 
+    display: flex;
+    opacity: 1; 
+    visibility: visible;
+    clip-path: inset(0 0 0 0);
+}
+
+.contact-form h2 {
+    text-align: center;
+    background: linear-gradient(90deg, var(--golden-snitch), rgb(255, 220, 104)); /* var(--hogwarts-purple)*/
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding: 0 2%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    color: var(--golden-snitch);
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+input, textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#message{ font-size: 15px; }
+
+button {
+    margin-top: 15px;
+    padding: 12px;
+    background-color: var(--hogwarts-purple);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+button:hover { background-color: rgb(179, 179, 0); }
+
+#feedback { 
+    margin-top: 10px; 
+    text-align: center;
+}
+
+
+.open-form{
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    bottom: 20px;
+    right: 20px;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    z-index: 100;
+    background: rgba(26, 10, 46, 0.8);
+    backdrop-filter: blur(10px);
+    color: var(--golden-snitch);
+    font-size: 2.2rem;
+    transition: all 0.3s;
+}
+
+.open-form:hover{
+    transform: scale(1.02);
+    box-shadow: 0 4px 15px rgba(116, 0, 184, 0.9);
+
+}
+
+.close-form{
+    position: absolute;
+    top: -5px;
+    right: 10px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 25px;
+    color: var(--golden-snitch);
+    transition: transform .3s ease;
+}
+
+.close-form:hover{ animation: pulsar 1s ease-in-out infinite; }
+
+@keyframes pulsar{
+    0% { transform: scale(1);}
+    50% { transform: scale(1.2); }
+    100% { transform: scale(1); }
+}
+
 /* FOOTER - Estilo Premium */
 footer {
     background: linear-gradient(180deg, #1A0A2E 0%, #0A0E17 100%);

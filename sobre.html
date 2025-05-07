@@ -30,18 +30,19 @@
     </header>
 
     <main>
+        <!-- INTRODUÇÃO -->
         <section class="introducao">
             <p id="welcome">Saudações Bruxos e Trouxas!</span></p>
             <h3>Somos a <strong>Hogwarts Academy</strong></h3>
         </section>
 
+        <!-- HISTÓRIA DA INSTITUIÇÃO -->
         <section class="historia">
             <div class="historia-content">
                 <div class="historia-img">
                     <img src="images/brasao.png" alt="Brasão das casas de Hogwarts">
                 </div>
                 <div class="historia-text">
-                    <!-- <h2>Sobre Nós</h2> -->
                     <p>A <strong>Hogwarts Academy</strong> foi fundada no século XXI por um grupo de bruxos visionários inspirados nas tradições mágicas de Hogwarts. Unindo magia e tecnologia, criaram uma plataforma educacional online que combina fantasia e aprendizado. Oferecemos uma jornada mágica por matérias clássicas e modernas, com uma metodologia gamificada e divertida para todos — seja você trouxa ou bruxo.</p>
                     <p>Guiados pelos <em>Magos da Sabedoria</em>, desenvolvemos a <strong>Magia do Conhecimento</strong>: uma metodologia encantada, com aulas interativas, casas mágicas e conteúdos que se adaptam ao estilo de cada aluno. Cada estudante é acolhido em uma das <strong>Casas Mágicas</strong>, representando os valores de coragem, inteligência, lealdade ou ambição.</p>
                     <ul>
@@ -55,6 +56,7 @@
             <p id="hoje">Hoje, com cursos como <strong>Herbologia</strong> e <strong>Feitiçaria Aplicada à Tecnologia</strong>, seguimos encantando mentes curiosas pelo mundo inteiro. Afinal, aqui, cada clique é um feitiço... e cada aula, uma nova aventura.</p>
         </section>
 
+        <!-- VALORES -->
         <section class="valores">
             <h2>No que acreditamos?</h2>
             <p id="highlited-p">O conhecimento é a magia mais poderosa de todas</p>
@@ -89,7 +91,27 @@
                 </div>
             </div>
             <p id="missao">Na <strong>Hogwarts Academy</strong>, acreditamos que aprender deve ser uma experiência encantadora. Por isso, nossos valores guiam cada jornada mágica com propósito e criatividade, conectando estudantes ao conhecimento de forma envolvente. Nossa visão é ser referência mundial em educação temática — onde aprender é tão mágico quanto sonhar.</p>
-          </section>
+        </section>
+
+        <!-- CONTACT FORM -->
+        <section class="container">
+            <form class="contact-form" id="contact-form">
+                <div class="close-form">x</div>
+                <h2>Entre em Contato com a Direção Mágica</h2>
+                <label for="name">Nome:</label>
+                <input type="text" id="name" required />
+        
+                <label for="email">Email:</label>
+                <input type="email" id="email" required />
+        
+                <label for="message">Mensagem:</label>
+                <textarea id="message" rows="5" required></textarea>
+        
+                <button type="submit">Enviar</button>
+                <p id="feedback"></p>
+            </form>
+        </section>
+        <div class="open-form"><i class="far fa-comment-dots "></i></div>
     </main>
 
     <footer>
