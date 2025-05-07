@@ -22,10 +22,9 @@
             </div>
             <ul class="nav-items">
                 <li><a href="index.html"><i class="fas fa-home"></i> Início</a></li>
-                <li><a href="index.html#materia"><i class="fas fa-book"></i> Matérias</a></li>
-                <li><a href="index.html#cursos"><i class="fas fa-flask"></i> Cursos</a></li>
-                <li><a href="index.html#segredos"><i class="fas fa-magic"></i> Segredos</a></li>
-                <li><a href="index.html#contatos"><i class="fas fa-quidditch"></i> Contatos</a></li>
+                <li><a href="#materias"><i class="fas fa-book"></i> Matérias</a></li>
+                <li><a href="#segredos"><i class="fas fa-magic"></i> Segredos</a></li>
+                <li><a href="sobre.html"><i class="fas fa-quidditch"></i> Sobre nós</a></li>
             </ul>
         </nav>
     </header>
@@ -104,6 +103,26 @@
                 </div>
             </div>
         </div>
+
+        <!-- CONTACT FORM -->
+        <section class="container">
+            <form class="contact-form" id="contact-form">
+                <div class="close-form">x</div>
+                <h2>Entre em Contato com a Direção Mágica</h2>
+                <label for="name">Nome:</label>
+                <input type="text" id="name" required />
+        
+                <label for="email">Email:</label>
+                <input type="email" id="email" required />
+        
+                <label for="message">Mensagem:</label>
+                <textarea id="message" rows="5" required></textarea>
+        
+                <button type="submit">Enviar</button>
+                <p id="feedback"></p>
+            </form>
+        </section>
+        <div class="open-form"><i class="far fa-comment-dots "></i></div>
     </section>
 
     <!-- FOOTER -->
