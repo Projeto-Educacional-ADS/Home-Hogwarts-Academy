@@ -133,3 +133,235 @@
 
     .container{ width: 70%; }
 }
+
+/* responsividade para as páginas materiais */
+
+@media (max-width: 1200px) {
+    .course-container {
+        grid-template-columns: 250px 1fr;
+        gap: 30px;
+    }
+    
+    .course-hero h1 {
+        font-size: 3rem;
+    }
+}
+
+@media (max-width: 992px) {
+    .course-container {
+        grid-template-columns: 1fr;
+    }
+    
+    .course-sidebar {
+        position: static;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    
+    .course-hero h1 {
+        font-size: 2.5rem;
+    }
+    
+    .course-hero p {
+        font-size: 1.1rem;
+    }
+    
+    .video-container {
+        grid-template-columns: 1fr;
+    }
+    
+    .container {
+        width: 50%;
+    }
+}
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 10px 5%;
+    }
+    
+    .logo {
+        flex: auto;
+    }
+    
+    nav ul {
+        opacity: 0;
+        visibility: hidden;
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+        transition: all .3s ease;
+        position: absolute;
+        flex-direction: column;
+        top: 80px;
+        right: 0;
+        width: 100%;
+        background-color: #1A0A2E;
+        border-bottom: 3px solid var(--golden-snitch);
+        padding: 20px 5%;
+        gap: 15px;
+    }
+     
+    nav ul li a {
+        font-size: 1rem;
+        padding: 10px;
+    }
+    
+    .toggle-menu {
+        display: block;
+    }
+
+    .nav-active {
+        opacity: 1;
+        visibility: visible;
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    }
+    
+    .course-sidebar {
+        grid-template-columns: 1fr;
+    }
+    
+    .course-hero h1 {
+        font-size: 2.2rem;
+    }
+    
+    .house-badge-large {
+        width: 60px;
+        height: 60px;
+        font-size: 30px;
+    }
+    
+    .course-main {
+        padding: 25px;
+    }
+    
+    .topics-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .container {
+        width: 70%;
+        right: 0;
+        border-radius: 10px 0 0 0;
+    }
+}
+
+@media (max-width: 576px) {
+    .logo h1 {
+        font-size: 1.5rem;
+    }
+    
+    .course-hero h1 {
+        font-size: 1.8rem;
+    }
+    
+    .course-hero .professor {
+        font-size: 1rem;
+    }
+    
+    .course-hero p {
+        font-size: 1rem;
+    }
+    
+    .btn {
+        padding: 12px 30px;
+        font-size: 1rem;
+    }
+    
+    .course-about h2 {
+        font-size: 1.5rem;
+    }
+    
+    .sidebar-card h3 {
+        font-size: 1.1rem;
+    }
+    
+    .lessons-list li a, .materials-list li a {
+        font-size: 0.9rem;
+        padding: 8px 0;
+    }
+    
+    .video-info h3 {
+        font-size: 1.2rem;
+    }
+    
+    .video-info p {
+        font-size: 0.9rem;
+    }
+    
+    .topic-card h3 {
+        font-size: 1.1rem;
+    }
+    
+    .topic-card p {
+        font-size: 0.9rem;
+    }
+    
+    .container {
+        width: 90%;
+        margin: 60px auto;
+        height: auto;
+        padding: 20px;
+    }
+    
+    .contact-form h2 {
+        font-size: 1.3rem;
+    }
+    
+    .open-form {
+        width: 50px;
+        height: 50px;
+        font-size: 1.8rem;
+    }
+}
+
+/* Estilos específicos para o formulário de contato em mobile */
+@media (max-width: 768px) {
+    .contact-form {
+        width: 100%;
+        padding: 15px;
+    }
+    
+    .contact-form h2 {
+        font-size: 1.5rem;
+        margin-bottom: 15px;
+    }
+    
+    .close-form {
+        top: 5px;
+        right: 15px;
+    }
+}
+
+/* Ajustes para o footer em mobile */
+@media (max-width: 768px) {
+    .footer-links {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+    
+    .footer-column {
+        margin-bottom: 20px;
+    }
+    
+    .footer-column ul li a {
+        justify-content: center;
+    }
+    
+    .social-links {
+        flex-wrap: wrap;
+    }
+}
+
+/* Ajustes para vídeo placeholder em mobile */
+@media (max-width: 576px) {
+    .video-placeholder img {
+        width: 100%;
+        height: auto;
+    }
+    
+    .video-placeholder i {
+        font-size: 3rem;
+    }
+}
