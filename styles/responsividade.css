@@ -177,40 +177,6 @@
 }
 
 @media (max-width: 768px) {
-    header {
-        flex-direction: row;
-        justify-content: space-between;
-        padding: 10px 5%;
-    }
-    
-    .logo {
-        flex: auto;
-    }
-    
-    nav ul {
-        opacity: 0;
-        visibility: hidden;
-        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
-        transition: all .3s ease;
-        position: absolute;
-        flex-direction: column;
-        top: 80px;
-        right: 0;
-        width: 100%;
-        background-color: #1A0A2E;
-        border-bottom: 3px solid var(--golden-snitch);
-        padding: 20px 5%;
-        gap: 15px;
-    }
-     
-    nav ul li a {
-        font-size: 1rem;
-        padding: 10px;
-    }
-    
-    .toggle-menu {
-        display: block;
-    }
 
     .nav-active {
         opacity: 1;
@@ -301,7 +267,7 @@
     .container {
         width: 90%;
         margin: 60px auto;
-        height: 90vh;
+        height: auto;
         padding: 20px;
     }
     
