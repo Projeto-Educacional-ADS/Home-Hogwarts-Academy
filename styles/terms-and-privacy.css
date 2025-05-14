@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html body{ background: linear-gradient(rgb(10, 14, 23), rgb(10, 14, 23)); }
+
+.policy-items{ display: flex; }
+
+.policy-sidebar {
+    position: fixed;
+    width: 23%;
+    height: 100vh;
+    padding: 10px;
+    background-color: #0d0516;
+    border-right: 3px solid var(--golden-snitch);
+    z-index: 100;
+}
+
+.policy-sidebar ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 85vh;
+    position: fixed;
+    list-style: none;
+    gap: 0;
+}
+
+.policy-sidebar a {
+    font-size: .9rem;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    white-space: wrap;
+    width: 22vw;
+}
+
+.policy-content{ margin: 2% 5% 0 27%; }
+
+main h2{
+    font-family: 'Metamorphous', cursive;
+    background: linear-gradient(90deg, var(--golden-snitch), rgb(255, 220, 104)); /* var(--hogwarts-purple)*/
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0 0 15px rgba(255, 215, 0, 0.5);
+    letter-spacing: 1px;
+    font-size: 1.7rem;
+    text-align: center;
+    padding-bottom: 4%;
+}
+
+section{ scroll-margin-top: 78px; }
+
+section h3, strong{ color: var(--golden-snitch); }
+
+section h3{ 
+    font-family: 'Metamorphous', cursive;
+    font-size: 1.1rem;
+    padding: 4% 0 1.5%; 
+}
+
+section h3 i{ 
+    padding-right: 1%; 
+    font-size: 1em;
+}
+
+main p, section p{
+    font-size: 1.2rem;
+    text-align: justify;
+    padding-left: 3.7%;
+}
+
+section ul{
+    margin: 1% 0 0 6.5%;
+    font-size: 1rem;
+}
+
+#atualizacao{ 
+    text-align: center; 
+    padding: 5% 0 3%;
+}
+
+div #voltarAoTopo{
+    position: fixed;
+    bottom: 20px;
+}
+
+.footer-content{ 
+    padding-left: 27%;
+    width: 100%; 
+}
+
+@media (max-width: 768px) {
+    .policy-sidebar {
+      display: none;
+    }
+  }
