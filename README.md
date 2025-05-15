@@ -12,9 +12,11 @@ Uma jornada mágica rumo ao vestibular para jovens bruxos da rede pública.
 | 23/04/2025   | 1.0.0        | Lançamento Inicial                | Lançamento da versão inicial do site, com estrutura básica da página inicial.                                                 | Jéssica          |
 | 01/05/2025   | 1.0.1        | Adição de Páginas de Cursos       | Inclusão das páginas dos cursos de Aritmancia, Herbologia e Estudo dos Trovões.                                               | Sabrina          |
 | 03/05/2025   | 1.1.0        | Implementação da Página "Sobre Nós" | Criação e lançamento da página "Sobre Nós", com informações sobre a instituição de ensino.                                     | Gabriel          |
-| 05/05/2025   | 1.1.1        | Correção de Bugs                  | Correção de erros relacionados ao linkamento de fontes e imagens nas páginas inicial, de cursos e sobre nós.                 | Gabriel          |
+| 05/05/2025   | 1.1.1        | Correção de Bugs                 | Correção de erros relacionados ao linkamento de fontes e imagens nas páginas inicial, de cursos e sobre nós.                 | Gabriel          |
 | 07/05/2025 | 1.1.2 | Adição da área de contato | Criação e lançamento da seção de contato para alunos e demais interessados entrarem em comunicação com a instituição | Gabriel |
 | 08/05/2025 | 1.1.3 | Adição de responsividade | Feito nas  páginas das materias | Sabrina | 
+| 14/05/2025 | 1.1.4 | Inclusão das páginas de Políticas de Privacidade e Termos de Uso | Implementação das páginas institucionais de Políticas de Privacidade e Termos de Uso, com o objetivo de assegurar a transparência nas relações com os usuários e garantir os direitos e deveres tanto da instituição quanto dos estudantes e demais interessados | Gabriel |
+
 # Objetivo
 
 Levar educação de qualidade aos jovens bruxos e bruxas da vida real por meio de uma plataforma encantadora, interativa e fácil de usar.
