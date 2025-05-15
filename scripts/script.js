@@ -49,13 +49,15 @@ let containerForm = document.querySelector(".container");
 openForm.addEventListener('click', ()=>{
   containerForm.classList.add('form-active')
   openForm.style.display = 'none';
-  voltarAoTopo.style.transform = 'translate(-830%, 135%)';
+  voltarAoTopo.style.visibility = 'hidden';  
+  document.body.style.overflow = 'hidden';
 })
 
 closeForm.addEventListener('click', ()=>{
   containerForm.classList.remove('form-active')
   openForm.style.display = 'flex';
-  voltarAoTopo.style.transform = 'translateX(0)';
+  voltarAoTopo.style.visibility = 'visible';  
+  document.body.style.overflow = 'scroll';
 })
 
 // Botão "Voltar ao Topo"

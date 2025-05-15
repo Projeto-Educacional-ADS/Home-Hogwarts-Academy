@@ -96,4 +96,9 @@ div #voltarAoTopo{
     .policy-sidebar {
       display: none;
     }
+
+    main h2, section h3, #atualizacao{ padding: 10% 0 5%; }
+    .policy-content{ margin: 2% 5%; }
+    section ul{ padding-left: 2%; }
+    .footer-content{ padding-left: 0; }
   }
