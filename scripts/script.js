@@ -49,9 +49,32 @@ let containerForm = document.querySelector(".container");
 openForm.addEventListener('click', ()=>{
   containerForm.classList.add('form-active')
   openForm.style.display = 'none';
+  voltarAoTopo.style.visibility = 'hidden';  
+  document.body.style.overflow = 'hidden';
 })
 
 closeForm.addEventListener('click', ()=>{
   containerForm.classList.remove('form-active')
   openForm.style.display = 'flex';
+  voltarAoTopo.style.visibility = 'visible';  
+  document.body.style.overflow = 'scroll';
 })
+
+// Botão "Voltar ao Topo"
+window.onscroll = function() {
+  var voltarAoTopo = document.getElementById("voltarAoTopo");
+  if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+    voltarAoTopo.style.display = "block";
+  } else {
+    voltarAoTopo.style.display = "none";
+  }
+};
+
+function rolarAoTopo() {
+  window.scrollTo({
+      top: 0,
+      behavior: "smooth"
+  });
+}
+
+
