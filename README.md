@@ -73,3 +73,74 @@ Prepare sua varinha, abra seus livros e venha estudar no **Hogwarts Academy**!
 *"A educação é a magia mais poderosa que existe."*
 
 
+
+
+## Documentação do Projeto Hogwarts Academy
+
+## Sumário
+1. Introdução  
+   1.1 Objetivo  
+   1.2 Público-Alvo  
+   1.3 Justificativa  
+2. Requisitos  
+   2.1 Funcionais  
+   2.2 Não-Funcionais  
+...etc
+
+## 1. Introdução
+## 1.1 Objetivo
+O projeto Hogwarts Academy é uma plataforma educacional gratuita e interativa, inspirada no universo de Harry Potter, voltada para estudantes da rede pública que estão se preparando para o ENEM e vestibulares.
+
+## 1.2 Público-Alvo
+Estudantes de escolas públicas
+
+Jovens em fase pré-vestibular
+
+Professores e educadores interessados em materiais didáticos
+
+## 1.3 Justificativa
+A plataforma busca tornar o estudo mais atrativo e eficiente, utilizando uma abordagem lúdica e imersiva para engajar os alunos.
+
+## 2. Requisitos do Projeto
+## 2.1 Requisitos Funcionais
+ | **ID**     | **Descrição**                                                  | **Prioridade** |
+ |------------|----------------------------------------------------------------|----------------|
+ | 01         | Exibir cursos por disciplina (Aritmancia, Herbologia, etc.)    |	Alta           |
+ | 02         | Permitir download de materiais de estudo (PDFs, resumos)       |	Alta           |
+ | 03	        | Disponibilizar exercícios interativos com correção automática  |	Média          |
+ | 04	        | Implementar um fórum de dúvidas (Futuro)                       |	Baixa          |
+ | 05         |	Área para professores postarem conteúdos (Futuro)              | Baixa          |
+## 2.2. Requisitos Não-Funcionais
+ | **ID**     | **Descrição**                                | **Prioridade**  |
+ |------------|----------------------------------------------|-----------------|
+ | 01         |	Site responsivo (mobile e desktop)	          | Alta            |
+ | 02        	| Tempo de carregamento rápido (<3s)          	| Média           |
+ | 03	        | Segurança de dados (Política de Privacidade)	| Alta            |
+## 3. Tecnologias Utilizadas
+## 3.1. Atuais
+Front-end: HTML, CSS, JavaScript (Vanilla)
+
+Versionamento: GitHub
+
+## 3.2 Futuras
+Back-end: Java (Spring Boot)
+
+Banco de Dados: MySQL
+
+## 4. Gestão de Projeto
+## 4.1. Cronograma
+| **Tarefa**               | **	Responsável** | **	Data de Conclusão** | 
+|--------------------------|------------------|------------------------|
+| Lançamento Inicial       | Jéssica          |	23/04/2025             |
+| Páginas de Cursos        |	Sabrina          |	01/05/2025             |        
+| Página "Sobre Nós"       |	Gabriel	         | 03/05/2025             |
+| Correção de Bugs      	  | Gabriel          |	05/05/2025             |
+| Área de Contato	         | Gabriel          |	07/05/2025             |
+| Responsividade	          | Sabrina	         | 08/05/2025             |
+| Políticas de Privacidade |	Gabriel	         | 14/05/2025             |
+## 4.2. Riscos
+| **Risco**                                | **Impacto** | **	Mitigação**            |
+|------------------------------------------|-------------|---------------------------|
+|Falta de engajamento dos alunos           |	Alto	       | Gamificação e recompensas |
+|Problemas de hospedagem                   |	Médio      	| Servidor escalável        |
+|Dificuldade em manter conteúdo atualizado |	Médio	      | Parcerias com professores |
