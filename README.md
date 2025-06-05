@@ -73,6 +73,19 @@ Para ver a documentação completa, acesse o [PDF completo](docs/HOGWARTS-ACADEM
 
 ---
 
+---
+## 🚀 Como Executar Localmente
+
+```bash
+git clone https://github.com/Projeto-Educacional-ADS/Home-Hogwarts-Academy.git
+cd Home-Hogwarts-Academy
+open index.html  # macOS
+# start index.html  # Windows PowerShell
+# xdg-open index.html  # Linux
+```
+
+---
+
 ## ✉️ Convite
 
 Se você é um jovem bruxo da vida real que sonha em conquistar sua vaga na universidade, **essa plataforma foi feita para você**.  
