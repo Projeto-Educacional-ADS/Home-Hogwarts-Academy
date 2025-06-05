@@ -66,6 +66,13 @@ Aqui, o aluno deixa de ser um simples espectador e se torna o protagonista de su
 
 ---
 
+
+# Documentação do Projeto
+
+Para ver a documentação completa, acesse o [PDF completo](docs/HOGWARTS-ACADEMY.pdf).
+
+---
+
 ## ✉️ Convite
 
 Se você é um jovem bruxo da vida real que sonha em conquistar sua vaga na universidade, **essa plataforma foi feita para você**.  
