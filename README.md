@@ -72,8 +72,6 @@ Aqui, o aluno deixa de ser um simples espectador e se torna o protagonista de su
 Para ver a documentação completa, acesse o [PDF completo](docs/HOGWARTS-ACADEMY.pdf).
 
 ---
-
----
 ## 🚀 Como Executar Localmente
 
 ```bash
